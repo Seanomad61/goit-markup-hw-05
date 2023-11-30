@@ -523,13 +523,24 @@
             </li>
           </ul>
         </div>
-        <!-- backdrop -->
+        <!-- window -->
         <div class="window">
           <p class="window-item">Subscribe</p>
           <form class="window-form" action="">
             <label class="window-label" for="">
-              <input name="window-input" type="text" />
+              <input
+                class="window-name"
+                name="user-name"
+                type="text"
+                placeholder="Alex"
+              />
             </label>
+            <button class="window-button" type="submit">
+              Subscribe
+              <svg width="24" height="24" class="window-svg">
+                <use href="./images/icons/sprite.svg#icon-frame"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
