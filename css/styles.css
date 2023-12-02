@@ -550,6 +550,9 @@ li {
 .modal-window-name {
   margin-bottom: 8px;
 }
+.modal-window-txtar-name {
+  margin-bottom: 16px;
+}
 .m-w-label-name {
   font-size: 12px;
   line-height: 1.17;
