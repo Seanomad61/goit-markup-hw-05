@@ -548,7 +548,7 @@ li {
   margin-bottom: 16px;
 }
 .modal-window-name {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .m-w-label-name {
   font-size: 12px;
@@ -581,7 +581,7 @@ li {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.m-w-input-user-name + .m-w-svg:focus {
+.m-w-input-user-name:focus + .m-w-svg {
   fill: #4d5ae5;
 }
 .m-w-comment {
@@ -602,7 +602,7 @@ li {
 .m-w-comment:focus {
   color: #4d5ae5;
 }
-.m-w-input-user-name ~ .m-w-comment:focus {
+.m-w-input-user-name:focus ~ .m-w-comment {
   background-color: #4d5ae5;
 }
 
@@ -641,7 +641,7 @@ li {
   justify-content: center;
   fill: transparent;
 }
-.m-w-input-privacy:checked + .m-w-customer-icon {
+.m-w-input-privacy:checked ~ .m-w-customer-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
