@@ -501,11 +501,11 @@ li {
   opacity: 0;
   visibility: hidden;
 }
-/* .modal-window-container.is-open {
+.modal-window-container.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-} */
+}
 .modal-window {
   position: absolute;
   top: 50%;
