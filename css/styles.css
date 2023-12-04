@@ -442,6 +442,7 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-left: 60px;
 }
 .footer-window-form {
   display: flex;
@@ -459,6 +460,7 @@ li {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
+  margin-left: 60px;
 }
 .footer-window-name::placeholder {
   color: #ffffff;
