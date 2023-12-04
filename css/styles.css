@@ -595,9 +595,11 @@ li {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  stroke: #2e2f42;
+  fill: none;
 }
 .m-w-input-user-name:focus + .m-w-svg {
-  fill: #4d5ae5;
+  stroke: #fd9222;
 }
 .m-w-comment {
   width: 100%;
@@ -660,11 +662,16 @@ li {
   fill: transparent;
   margin-right: 8px;
 }
-
+.m-w-customer-icon {
+  color: #fff;
+}
 .m-w-input-privacy:checked + .m-w-user-privacy > .m-w-customer-icon {
-  background-color: #404bbf;
+  background-color: #fd9222;
   border: none;
   fill: #f4f4fd;
+}
+.m-w-input-privacy:checked + .m-w-user-privacy.m-w-fantom-icon {
+  opacity: 1;
 }
 .m-w-privacy-policy {
   color: #4d5ae5;
@@ -685,4 +692,7 @@ li {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 100px;
+}
+.m-w-button:focus {
+  color: #fd9222;
 }
