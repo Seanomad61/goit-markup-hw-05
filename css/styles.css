@@ -617,8 +617,11 @@ li {
 .m-w-comment:focus {
   border-color: #4d5ae5;
 }
+.m-w-comment::placeholder {
+  color: #8e8f99;
+}
 .m-w-input-user-name:focus ~ .m-w-comment {
-  background-color: #4d5ae5;
+  border: #4d5ae5;
 }
 
 .m-w-checkbox {
@@ -655,7 +658,9 @@ li {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
+
 .m-w-input-privacy:checked + .m-w-user-privacy > .m-w-customer-icon {
   background-color: #404bbf;
   border: none;
@@ -679,5 +684,5 @@ li {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 110px;
+  margin-left: 100px;
 }
