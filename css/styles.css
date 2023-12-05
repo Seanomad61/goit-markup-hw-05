@@ -169,6 +169,7 @@ img {
   display: flex;
   gap: 40px;
 }
+
 .address-contacts {
   font-size: 16px;
   line-height: 1.5;
@@ -415,6 +416,8 @@ li {
   display: flex;
   width: 40px;
   height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
 }
 .social-footer-network {
   width: 100%;
@@ -432,6 +435,8 @@ li {
 }
 .icon-footer-link {
   fill: #f4f4fd;
+  width: 16px;
+  height: 16px;
 }
 /* footer-window */
 .footer-window {
@@ -446,6 +451,7 @@ li {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
 .footer-window-form {
   display: flex;
   gap: 24px;
@@ -483,10 +489,22 @@ li {
   border: none;
   border-radius: 4px;
 }
+.footer-window-button:hover,
+.footer-window-button:focus {
+  background-color: #31d0aa;
+  color: #2e2f42;
+}
+
 .footer-window-svg {
   margin-left: 16px;
   color: #ffffff;
 }
+.footer-window-button:hover .footer-window-svg,
+.footer-window-button:focus .footer-window-svg {
+  stroke: #2e2f42;
+  /* fill: #2e2f42; */
+}
+
 /* modal-window */
 .modal-window-container {
   position: fixed;
@@ -501,11 +519,11 @@ li {
   opacity: 0;
   visibility: hidden;
 }
-.modal-window-container.is-open {
+/* .modal-window-container.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 .modal-window {
   position: absolute;
   top: 50%;
@@ -680,7 +698,7 @@ li {
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -693,6 +711,8 @@ li {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 100px;
 }
+.m-w-button:hover,
 .m-w-button:focus {
   color: #fd9222;
+  background-color: #404bbf;
 }
