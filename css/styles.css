@@ -502,7 +502,11 @@ li {
 .footer-window-button:hover .footer-window-svg,
 .footer-window-button:focus .footer-window-svg {
   stroke: #2e2f42;
-  /* fill: #2e2f42; */
+  fill: #2e2f42;
+}
+.footer-window-svg:hover,
+.footer-window-svg:focus {
+  color: #fff;
 }
 
 /* modal-window */
