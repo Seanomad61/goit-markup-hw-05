@@ -438,6 +438,10 @@ li {
   width: 16px;
   height: 16px;
 }
+.icon-footer-link:focus,
+.icon-footer-link:hover {
+  fill: #2e2f42;
+}
 /* footer-window */
 .footer-window {
   margin-left: 60px;
@@ -501,7 +505,7 @@ li {
 }
 .footer-window-button:hover .footer-window-svg,
 .footer-window-button:focus .footer-window-svg {
-  /* stroke: #2e2f42; */
+  stroke: #2e2f42;
   fill: #2e2f42;
 }
 /* .footer-window-svg:hover,
@@ -523,6 +527,7 @@ li {
   opacity: 0;
   visibility: hidden;
 }
+/* awating for JS */
 /* .modal-window-container.is-open {
   opacity: 1;
   visibility: visible;
