@@ -717,7 +717,7 @@ li {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 260ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 100px;
 }
 .m-w-button:hover,
@@ -725,3 +725,4 @@ li {
   color: #fd9222;
   background-color: #404bbf;
 }
+/* CONTROL-16-12-23======== */
